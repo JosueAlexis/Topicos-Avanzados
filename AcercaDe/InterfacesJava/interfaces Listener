@@ -1,4 +1,3 @@
-### las interfaces Listener que existen en java
 #ActionListener : Se usa para detectar y manejar eventos de acción, osea, los que tienen lugar cuando se produce una acción sobre un elemento del programa
 #Metodos :   
 >actionPerformed (ActionEvent)
