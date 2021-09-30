@@ -1,0 +1,21 @@
+### las interfaces Listener que existen en java
+#ActionListener : Se usa para detectar y manejar eventos de acción, osea, los que tienen lugar cuando se produce una acción sobre un elemento del programa
+#Metodos :   
+>actionPerformed (ActionEvent)
+#AdjustmentListener : Para escuchar los eventos de tipo AdjustmentEvent producidos por la clase JScrollbar deberemos implementar la interfaz
+#Metodos:
+>adjustmentValueChanged (AdjustmentEvent)
+#ComponentListener : Para marcar un objeto con la capacidad de escuchar eventos de tipo Component Event deberemos implementar la interfaz Component Listener
+#Metodos:
+>componentHidden(ComponentEvent)
+>componentMoved(ComponentEvent)
+>componentResized(ComponentEvent)
+>componentShown(ComponentEvent)
+#ContainerListener : Eventos de contenedores son disparados por un contenedor sólo después de que un componente se añade o se retira del recipiente.
+#Metodos:
+>componentAdded(ComponentEvent)
+>componentRemoved(ComponentEvent)
+#FocusListener ; La interfaz de escucha para recibir eventos de teclado se centran en un componente.
+#Metodos:
+>focusGained(FocusEvent)
+>focusLost(FocusEvent)
