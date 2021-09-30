@@ -1,40 +1,59 @@
-#ActionListener : Se usa para detectar y manejar eventos de acción, osea, los que tienen lugar cuando se produce una acción sobre un elemento del programa
-#Metodos :   
+##ActionListener
+###Se usa para detectar y manejar eventos de acción, osea, los que tienen lugar cuando se produce una acción sobre un elemento del programa
 >actionPerformed (ActionEvent)
-#AdjustmentListener : Para escuchar los eventos de tipo AdjustmentEvent producidos por la clase JScrollbar deberemos implementar la interfaz
-#Metodos:
->adjustmentValueChanged (AdjustmentEvent)
-#ComponentListener : Para marcar un objeto con la capacidad de escuchar eventos de tipo Component Event deberemos implementar la interfaz Component Listener
-#Metodos:
->componentHidden(ComponentEvent)
->componentMoved(ComponentEvent)
->componentResized(ComponentEvent)
->componentShown(ComponentEvent)
-#ContainerListener : Eventos de contenedores son disparados por un contenedor sólo después de que un componente se añade o se retira del recipiente.
-#Metodos:
->componentAdded(ComponentEvent)
->componentRemoved(ComponentEvent)
-#FocusListener ; La interfaz de escucha para recibir eventos de teclado se centran en un componente.
-#Metodos:
->focusGained(FocusEvent)
->focusLost(FocusEvent)
-#ItemListener : Implementaremos esta interfaz para escuchar los eventos que pueden producir los objetos JCheckbox , JList y JCheckboxMenuItem.
-#Metodos:
->itemStateChanged(ItemEvent)
-#KeyListener : Con la interfaz KeyListener se puede detectar y tratar los eventos generados por la pulsación de una tecla o por combinaciones de ellas, los KeyEvent
-#Metodos:
->keyPressed(KeyEvent)
->keyReleased(KeyEvent)
->keyTyped(KeyEvent)
-#MouseListener ; La interfaz de receptor para la recepción de "interesantes" eventos del ratón en un componente.
-#Metodos:
->mouseClicked(MouseEvent)
->mouseEntered(MouseEvent)
->mouseExited(MouseEvent)
->mousePressed(MouseEvent)
->mouseReleased(MouseEvent)
-#MouseMotionListener ; La interfaz de escucha para recibir eventos de ratón en movimiento en un componente.
-#Metodos:
->mouseDragged (MouseEvent)
->mouseMoved (MouseEvent)
 
+##AdjustmentListener
+###Para escuchar los eventos de tipo AdjustmentEvent producidos por la clase JScrollbar deberemos implementar la interfaz
+>adjustmentValueChanged (AdjustmentEvent)
+
+##ComponentListener
+###Para marcar un objeto con la capacidad de escuchar eventos de tipo Component Event deberemos implementar la interfaz Component Listener
+>componentHidden(ComponentEvent)
+>
+>>componentMoved(ComponentEvent)
+>
+>>componentResized(ComponentEvent)
+>
+>componentShown(ComponentEvent)
+
+##ContainerListener
+###Eventos de contenedores son disparados por un contenedor sólo después de que un componente se añade o se retira del recipiente
+>componentAdded(ComponentEvent)
+>
+>>componentRemoved(ComponentEvent)
+
+##FocusListener
+###La interfaz de escucha para recibir eventos de teclado se centran en un componente
+>focusGained(FocusEvent)
+>
+>>focusLost(FocusEvent)
+
+##ItemListener
+###Implementaremos esta interfaz para escuchar los eventos que pueden producir los objetos JCheckbox , JList y JCheckboxMenuItem
+>itemStateChanged(ItemEvent)
+
+##KeyListener
+###Con la interfaz KeyListener se puede detectar y tratar los eventos generados por la pulsación de una tecla o por combinaciones de ellas, los KeyEvent
+>keyPressed(KeyEvent)
+>
+>>keyReleased(KeyEvent)
+>
+>>keyTyped(KeyEvent)
+
+##MouseListener
+###La interfaz de receptor para la recepción de "interesantes" eventos del ratón en un componente
+>mouseClicked(MouseEvent)
+>
+>>mouseEntered(MouseEvent)
+>
+>>mouseExited(MouseEvent)
+>
+>>mousePressed(MouseEvent)
+>
+>>mouseReleased(MouseEvent)
+
+##MouseMotionListener
+###La interfaz de escucha para recibir eventos de ratón en movimiento en un componente
+>mouseDragged (MouseEvent)
+>
+>>mouseMoved (MouseEvent)
